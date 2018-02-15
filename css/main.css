@@ -18,3 +18,25 @@ footer li{
 footer li a{
 	text-decoration: none;
 }
+
+
+.top-bar-section li:not(.has-form) a:not(.button){
+background-color: #d0e1ff;
+
+
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover{
+background-color: #db194b;
+
+
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button){
+background-color: #db194b;
+}
+
+.top-bar-section ul li > a{
+color: black;
+
+}
