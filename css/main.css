@@ -1,6 +1,29 @@
-.name img{
-	height:35px;
+header .logo{
+	height: 35px;
+	width: 100%;
 }
+
+
+figure.hero {
+ margin: 0;
+ position: relative;
+}
+figure.hero img {
+ width: 100%;
+}
+figure.hero figcaption {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+}
+
+
+
+header .logo {
+height: 3rem;
+}
+
+
 
 .top-bar{
 	background: #d0e1ff;
